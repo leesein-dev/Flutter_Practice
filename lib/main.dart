@@ -15,6 +15,7 @@ void main() {
         '/store': (context) => const StorePage(),
         '/recipe': (context) => const RecipePage(),
       },
+      debugShowCheckedModeBanner: false,
     ),
   );
 }
